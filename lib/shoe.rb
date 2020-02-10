@@ -17,5 +17,5 @@ class Shoe
   end
 end
   
-brand = Shoe.condition("old")
+brand = Shoe.new("Nike")
 brand.cobble

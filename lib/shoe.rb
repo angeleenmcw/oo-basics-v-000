@@ -16,5 +16,5 @@ class shoe
     @condition = "new"
   end
   
-shoe.condition
+brand = shoe.condition("old")
 shoe.cobble

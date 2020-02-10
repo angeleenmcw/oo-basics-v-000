@@ -17,4 +17,4 @@ class Shoe
   end
   
 brand = Shoe.condition("old")
-shoe.cobble
+brand.cobble

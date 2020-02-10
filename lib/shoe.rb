@@ -1,4 +1,4 @@
-class shoe 
+class Shoe 
   
   attr_accessor :size, :color, :material, :condition
   attr_reader :brand
@@ -16,5 +16,5 @@ class shoe
     @condition = "new"
   end
   
-brand = shoe.condition("old")
+brand = Shoe.condition("old")
 shoe.cobble
